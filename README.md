@@ -32,7 +32,7 @@ bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic votes --from-be
 --delete:
   bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic votes
 
-
+3. Sample message in the Kafka Producer
 {"kevin"}
 {"alice"}
 {"kevin"}
